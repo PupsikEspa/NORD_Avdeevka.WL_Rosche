@@ -15,14 +15,15 @@ _donateMap = createHashMapFromArray [
 	["76561198908535754", ["nord_tv110_knyazi","NMG_weapons_mk47","tsb_mag_762x39_30rnd_7n23_metal"]],
 	["76561198338806858", ["nord_tv110_cikada","Ltf_AEROM5_BLK","LTF_M110_20Rnd"]],
 	["76561199002226480", ["nord_tv110_flamberg","NMG_weapons_A545","NMG_weapons_A545_gp"]],
-	["76561198869532056", ["nord_tv110_vega","NMG_weapons_A545"]],
+	["76561198869532056", ["nord_tv110_vega","NMG_weapons_A545","NMG_weapons_mk47"]],
 	["76561199543645766", ["NMG_weapons_A762","NMG_weapons_A762_gp"]], //Fil
-	["76561198855517877", ["TSVL8_300","TSVL8_300_Mag"]], //Joker
+	["76561198855517877", ["TSVL8_300","TSVL8_300_Mag","Ltf_AEROM5_TAN","Ltf_AEROM5_BLK"]], //Joker
 	["76561198309019794", ["NMG_weapons_A545_gp","NMG_weapons_A545"]], //Rin
 	["76561198815605790", ["nord_tv110_varden","NMG_weapons_A545","NMG_weapons_A545_gp"]],
 	["76561199786409092", ["afou_weap_fort221_556x45_01"]], //Baron
 	["76561198029025525", ["NMG_weapons_A762_gp","NMG_weapons_A762","tsb_mag_762x39_30rnd_7n23_PMAG"]], //Gans Legenda
-	["76561198998228174", ["NMG_weapons_A545","rhs_weap_SCARH_FDE_CQC","tsb_mag_762x51_20rnd_m993_SCAR","rhsgref_sdn6_suppressor"]] // Chuhcbek
+	["76561198998228174", ["NMG_weapons_A545"]] // Chuhcbek
+	["76561199168589957", ["Ltf_malyuk_1"]] // Artist
 ];
 
 _myDonate = _donateMap getOrDefault [(getPlayerUID player), []];

@@ -15,9 +15,9 @@ if (isServer) then {
 	missionNamespace setVariable ["WEST_canOpenPKP", true, true]; //ВСЕГДА ставьте противоположное значение от WEST_pkpOpen
 
 	_groupNamesMap = createHashMapFromArray [
-		["1-й отряд 8 ОПСпН","ngu_omega"],
-		["2-й отряд 8 ОПСпН","opspn8"],
-		["3-й отряд 8 ОПСпН","opspn3"],
+		["НГУ ОМЕГА","ngu_omega"],
+		["8 ОПСпН","opspn8"],
+		["3 ОПСпН","opspn3"],
 		["53 ОМБр","ombr53"],
 		["127 ОБрТрО","obrtro127"],
 		["3 ОШБр","oshbr3"],
@@ -26,9 +26,9 @@ if (isServer) then {
 		["ОДШБр Ветераны","veterani"],
 		["15 ОМСБр","omsbr15"],
 		["24 ОБрСпН","obrspn24"],
-		["80 ОРБ Спарта","sparta80"],
+		["ОРБ Спарта","sparta80"],
 		["88 РШБр Эспаньола","espaniola88"],
-		[" БСН АрБат","arbat_bsn"],
+		["БСН АрБат","arbat_bsn"],
 		["4 ШО","sho4"],
 		["51 ПДП","pdp51"]
 	];
