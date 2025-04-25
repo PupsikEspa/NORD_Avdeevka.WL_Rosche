@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1301.7709,52.245335,14832.057};
-		dir[]={0.4854427,-0.50787807,0.71162754};
-		up[]={0.28620514,0.86142743,0.4195582};
-		aside[]={0.82610017,4.3772161e-08,-0.56353074};
+		pos[]={1305.7279,21.01816,14910.23};
+		dir[]={-0.88097048,-0.45443955,-0.13187289};
+		up[]={-0.449442,0.8907733,-0.067276441};
+		aside[]={-0.14804102,-2.6577618e-07,0.98898965};
 	};
 };
 binarizationWanted=0;
@@ -406,7 +406,7 @@ class CustomAttributes
 		};
 		nAttributes=5;
 	};
-	class Category2
+	class Category3
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -423,7 +423,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category3
+	class Category4
 	{
 		name="Scenario";
 		class Attribute0
@@ -36586,18 +36586,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1334.7892,5.5024977,14901.743};
-				angles[]={0.027990974,6.0685444,0.0093286335};
+				position[]={1334.7893,5.5028648,14901.743};
+				angles[]={0.02799508,6.0685444,0.0093200579};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 150];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 100];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15]; " \n "    this addItemCargoGlobal [""launch_NLAW_F"", 10];  " \n " this addItemCargoGlobal [""Item_Mavic"", 2];" \n "   };";
+				init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 150];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 100];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15]; " \n "    this addItemCargoGlobal [""launch_NLAW_F"", 10];  " \n " this addBackpackGlobal [""Volnorez_Bag"", 3];" \n "   };";
 			};
 			id=1065;
 			type="I_E_CargoNet_01_ammo_F";
-			atlOffset=-0.002366066;
+			atlOffset=-0.001999855;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -36879,14 +36879,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14413.261,30.627941,988.73877};
-						angles[]={0,1.4174151,0};
+						position[]={14413.261,30.627941,988.73901};
+						angles[]={0,1.4174167,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 						name="veterani_ars";
 						dynamicSimulation=1;
 					};
@@ -36954,19 +36954,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14462.569,30.667938,994.16077};
+						position[]={14462.569,30.667942,994.16101};
 						angles[]={0,0.89252645,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n "this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3];" \n "};" \n "";
 						name="sparta80_ars";
 					};
 					id=56902;
 					type="rhs_spec_weapons_crate";
-					atlOffset=0.039997101;
+					atlOffset=1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37029,19 +37029,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14446.179,30.667938,1002.3194};
+						position[]={14446.179,30.667942,1002.319};
 						angles[]={0,0.42406267,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3];" \n "};" \n "";
 						name="omsbr15_ars";
 					};
 					id=56910;
 					type="rhs_spec_weapons_crate";
-					atlOffset=0.039997101;
+					atlOffset=1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37104,18 +37104,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14462.362,31.035297,956.48871};
+						position[]={14462.362,31.035301,956.48901};
 						angles[]={0,6.2134242,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15];" \n " this addItemCargoGlobal [""Item_Mavic"", 3];" \n "   };";
+						init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15];" \n " this addBackpackGlobal [""Volnorez_Bag"", 3];" \n "   };";
 					};
 					id=56670;
 					type="I_E_CargoNet_01_ammo_F";
-					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -42735,19 +42734,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14412.39,30.66794,968.14972};
+						position[]={14412.39,30.667942,968.15002};
 						angles[]={0,4.5643501,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 						name="espaniola88_ars";
 						dynamicSimulation=1;
 					};
 					id=56907;
 					type="rhs_spec_weapons_crate";
+					atlOffset=1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -42869,19 +42869,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14425.36,30.627939,1007.2983};
+						position[]={14425.36,30.627941,1007.298};
 						angles[]={0,0.39664352,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal " \n "[""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addItemCargoGlobal " \n "[""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n "};" \n "";
 						name="obrspn24_ars";
 					};
 					id=80387;
 					type="rhs_spec_weapons_crate";
-					atlOffset=-1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43075,8 +43074,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14468.815,30.667933,941.59784};
-						angles[]={0,1.5715294,0};
+						position[]={14469.008,30.66794,941.55127};
+						angles[]={-0,1.5715294,0};
 					};
 					side="Empty";
 					flags=4;
@@ -43087,7 +43086,6 @@ class Mission
 					};
 					id=99728;
 					type="rhs_spec_weapons_crate";
-					atlOffset=0.039991379;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43245,20 +43243,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14470.597,30.627939,979.2113};
-						angles[]={0,1.2714695,0};
+						position[]={14470.597,30.627941,979.211};
+						angles[]={0,1.2714723,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addBackpackGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""O_Crocus_AP_Bag"", 3];" \n "};" \n "";
 						name="arbat_bsn_ars";
 						dynamicSimulation=1;
 					};
 					id=99773;
 					type="rhs_spec_weapons_crate";
-					atlOffset=-1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43790,18 +43787,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1297.6233,5.6264806,14896.915};
-				angles[]={0.031986579,6.137485,0.0093286335};
+				position[]={1297.623,5.6264615,14896.915};
+				angles[]={0.031991884,6.1374855,0.0093200579};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
 				name="opspn3_ars";
 			};
 			id=99845;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.69101667;
+			atlOffset=0.69099998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45073,19 +45070,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1322.4409,4.2590075,14934.023};
-				angles[]={0.035984326,6.2447,0.0026520467};
+				position[]={1322.4409,4.2598,14934.024};
+				angles[]={0.035988688,6.2447009,0.0026529003};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 				name="ombr53_ars";
 			};
 			id=575;
 			type="rhs_spec_weapons_crate";
-			atlOffset=-0.0008251667;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45295,19 +45291,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1347.6943,5.5946751,14884.967};
-				angles[]={0,3.0002592,0.0012918708};
+				position[]={1347.6943,5.7448688,14884.967};
+				angles[]={0.025324726,3.0002558,0.0079936078};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
 				name="ngu_omega_ars";
 			};
 			id=171490;
 			type="rhs_spec_weapons_crate";
-			atlOffset=-0.00019311905;
+			atlOffset=0.15000057;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45467,18 +45463,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1372.0897,5.5172687,14918.942};
-				angles[]={0.041308183,0.087091595,0};
+				position[]={1372.09,5.51717,14918.942};
+				angles[]={0.041311946,0.087091923,0};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n "};" \n "";
 				name="opspn8_ars";
 			};
 			id=171508;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.53809834;
+			atlOffset=0.53799963;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45590,18 +45586,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1334.2476,4.7439232,14937.144};
-				angles[]={0.010664274,6.1441712,0.021328852};
+				position[]={1334.2474,4.4138546,14937.143};
+				angles[]={0.010663962,6.1441698,0.021327924};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 				name="obrtro127_ars";
 			};
 			id=171524;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.32984781;
+			atlOffset=0.089999914;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45760,19 +45757,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1309.1304,4.3875685,14932.629};
-				angles[]={0.010664274,6.0592332,0};
+				position[]={1309.13,4.3880072,14932.629};
+				angles[]={0.010663962,6.0592246,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 				name="ombr72_ars";
 			};
 			id=171541;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.1035614;
+			atlOffset=0.10400009;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45932,19 +45929,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1296.6921,4.2365417,14929.834};
-				angles[]={0.039979152,6.1875091,0.010681028};
+				position[]={1296.6926,4.2366018,14929.834};
+				angles[]={0.039985489,6.1875062,0.010681415};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
 				name="ogshbr10_ars";
 			};
 			id=171558;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.1419394;
+			atlOffset=0.1420002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -50159,18 +50156,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1372.188,4.6726222,14941.431};
-				angles[]={0.0091414601,1.4949033,0.028268589};
+				position[]={1372.1881,4.6722422,14941.431};
+				angles[]={0.0091455253,1.4949094,0.028274333};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addBackpackGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n "};" \n "";
 				name="oshbr3_ars";
 			};
 			id=173378;
 			type="rhs_spec_weapons_crate";
+			atlOffset=0.3039999;
 			class CustomAttributes
 			{
 				class Attribute0
