@@ -5,4 +5,4 @@ ombr53_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ombr53_plate_ca.paa"
 ngu_omega_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ngu_omega_plate_ca.paa"];
 opspn8_plate setObjectTextureGlobal [0, "scripts\plates_ukr\opspn8_plate_ca.paa"];
 opspn3_plate setObjectTextureGlobal [0, "scripts\plates_ukr\opspn3_plate_ca.paa"];
-//oshbr3_plate setObjectTextureGlobal [0, "scripts\plates_ukr\oshbr3_plate_ca.paa"];
+oshbr3_plate setObjectTextureGlobal [0, "scripts\plates_ukr\oshbr3_plate_ca.paa"];
