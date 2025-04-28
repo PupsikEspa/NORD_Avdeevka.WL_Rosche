@@ -39216,7 +39216,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @ БСН АрБат";
+																						description="Командир @БСН АрБат";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -39763,7 +39763,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value=" БСН АрБат";
+																							value="БСН АрБат";
 																						};
 																					};
 																				};
@@ -43549,7 +43549,7 @@ class Mission
 						position[]={14466.396,30.209999,977.60168};
 						angles[]={0,5.2955961,0};
 					};
-					title=" БСН АрБат";
+					title="БСН АрБат";
 					id=99772;
 				};
 				class Item34
