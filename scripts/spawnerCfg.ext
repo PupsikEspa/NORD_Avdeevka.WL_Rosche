@@ -400,7 +400,7 @@ class ngu_omega_spawner_class //НГУ ОМЕГА
         {
 		{"nord_RHS_M2A2_wd",1,"true"},
 		{"nord_b_afougf_bmp2",1,"true"},
-		{"nord_MaxxPro_M2_clear",2,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",2,"true"},
 		{"nord_b_afougf_m1151_base",1,"true"},
 		{"nord_B_MaxxPro_M2_US_W",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
@@ -426,7 +426,7 @@ class opspn8_spawner_class //8 ОПСпН
         {
 		{"nord_FA_UAF_BTR4",1,"true"},
 		{"nord_rhsusf_stryker_m1132_m2_wd",1,"true"},
-		{"nord_MaxxPro_M2_clear",1,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"nord_b_afougf_m1151_base",1,"true"},
 		{"nord_B_MaxxPro_M2_US_W",1,"true"},
@@ -452,7 +452,7 @@ class opspn3_spawner_class //3 ОПСпН
         vehicles[] =
         {
 		{"nord_rhsusf_stryker_m1132_m2_wd",1,"true"},
-		{"nord_MaxxPro_M2_clear",2,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",2,"true"},
 		{"nord_B_MaxxPro_M2_US_W",1,"true"},
 		{"nord_b_afougf_m998_2dr",2,"true"},
 		{"nord_B_MaxxPro_MK19_US_W",1,"true"},
@@ -499,7 +499,7 @@ class obrtro127_spawner_class //127 ОБрТрО
 		{"b_afougf_yt_uaf_t64bm2",1,"true"},
 		{"nord_strf90c",1,"true"},
 		{"nord_rhsusf_stryker_m1132_m2_wd",2,"true"},
-		{"nord_MaxxPro_M2_clear",3,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",3,"true"},
 		{"nord_b_afougf_m1151_base",1,"true"},
 		{"nord_B_MaxxPro_M2_US_W",1,"true"},
 		{"nord_b_afougf_m998_2dr",2,"true"},
@@ -524,7 +524,7 @@ class oshbr3_spawner_class //3 ОШБр
         {
         {"nord_FA_UAF_BTR4",1,"true"},
 		{"nord_rhsusf_stryker_m1132_m2_wd",2,"true"},
-		{"nord_MaxxPro_M2_clear",2,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",2,"true"},
 		{"nord_b_afougf_m1151_base",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"nord_b_afougf_uaf_fiona",1,"true"},
@@ -548,7 +548,7 @@ class ombr72_spawner_class //72 ОМБр
         vehicles[] =
         {
 		{"nord_b_afougf_bmp1p",1,"true"},
-		{"nord_MaxxPro_M2_clear",1,"true"},
+		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"nord_B_MaxxPro_M2_US_W",1,"true"},
 		{"nord_b_afougf_uaf_fiona",1,"true"},
 		{"m113_krest",1,"true"},
