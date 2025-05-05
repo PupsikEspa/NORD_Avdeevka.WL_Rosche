@@ -2,7 +2,7 @@ if (side player == civilian) exitWith {};
 
 _arsArray = [
 	obrtro127_ars,
-	ogshbr10_ars,
+	obrmp36_ars,
 	ombr72_ars,
 	ombr53_ars,
 	ngu_omega_ars,
@@ -13,7 +13,7 @@ _arsArray = [
 	obrspn24_ars,
 	omsbr15_ars,
 	arbat_bsn_ars,
-	sho4_ars,
+	somali_60omb_ars,
 	veterani_ars,
 	oshbr3_ars,
 	pdp51_ars

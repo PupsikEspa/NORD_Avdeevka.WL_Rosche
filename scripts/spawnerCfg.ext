@@ -262,20 +262,20 @@ class arbat_bsn_spawner_class // БСН АрБат
     };
 };
 
-class sho4_spawner_class //4 ШО Вагнер ( пусто )
+class somali_60omb_spawner_class //60 ОМБ Сомали
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == sho4_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == somali_60omb_spawner)"; // "(playerSide in [west,independent])"
     
-    class sho4_spawner_class
+    class somali_60omb_spawner_class
 	{
-        displayName = "Запрос техники 4 ШО Вагнер";
+        displayName = "Запрос техники 60 ОМБ Сомали";
         vehicles[] =
         {    
  
 		};
         spawnPoints[] =
         {
-            {"1",{"sho4_spawnplace"}}
+            {"1",{"somali_60omb_spawnplace"}}
         };
         
     };
@@ -561,19 +561,19 @@ class ombr72_spawner_class //72 ОМБр
     };
 };
 
-class ogshbr10_spawner_class //10 ОГШБр (ПУСТО)
+class obrmp36_spawner_class //36 ОБрМП (ПУСТО)
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == ogshbr10_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == obrmp36_spawner)"; // "(playerSide in [west,independent])"
     
-    class ogshbr10_spawner_class
+    class obrmp36_spawner_class
 	{
-        displayName = "Запрос техники 10 ОГШБр";
+        displayName = "Запрос техники 36 ОБрМП";
         vehicles[] =
         {
         };
         spawnPoints[] =
         {
-            {"1",{"ogshbr10_spawnplace"}}
+            {"1",{"obrmp36_spawnplace"}}
         };
         
     };

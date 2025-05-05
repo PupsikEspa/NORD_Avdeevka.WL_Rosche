@@ -1,5 +1,5 @@
 obrtro127_plate setObjectTextureGlobal [0, "scripts\plates_ukr\obrtro127_plate_ca.paa"];
-//ogshbr10_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ogshbr10_plate_ca.paa"];
+obrmp36_plate setObjectTextureGlobal [0, "scripts\plates_ukr\obrmp36_plate_ca.paa"];
 ombr72_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ombr72_plate_ca.paa"];
 ombr53_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ombr53_plate_ca.paa"];
 ngu_omega_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ngu_omega_plate_ca.paa"];
