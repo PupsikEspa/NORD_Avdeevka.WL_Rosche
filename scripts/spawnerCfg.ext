@@ -389,13 +389,13 @@ class logistic_vsu_spawner_class //ящики всу
 
 // -------------- ВСУ -----------------------
 
-class ngu_omega_spawner_class //НГУ ОМЕГА
+class magura_ombr47_spawner_class //47 ОМБР
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == ngu_omega_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == magura_ombr47_spawner)"; // "(playerSide in [west,independent])"
     
-    class ngu_omega_spawner_class
+    class magura_ombr47_spawner_class
 	{
-        displayName = "Запрос техники НГУ ОМЕГА";
+        displayName = "Запрос техники 47 ОМБР";
         vehicles[] =
         {
 		{"nord_RHS_M2A2_wd",1,"true"},
@@ -409,7 +409,7 @@ class ngu_omega_spawner_class //НГУ ОМЕГА
         };
         spawnPoints[] =
         {
-            {"1",{"ngu_omega_spawnplace"}}
+            {"1",{"magura_ombr47_spawnplace"}}
         };
         
     };

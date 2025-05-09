@@ -5,7 +5,7 @@ _arsArray = [
 	obrmp36_ars,
 	ombr72_ars,
 	ombr53_ars,
-	ngu_omega_ars,
+	magura_ombr47_ars,
 	opspn8_ars,
 	opspn3_ars,
 	espaniola88_ars,
