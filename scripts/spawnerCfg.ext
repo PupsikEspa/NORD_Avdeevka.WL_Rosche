@@ -98,10 +98,11 @@ class omsbr15_spawner_class //15 ОМСБр
         displayName = "Запрос техники 15 ОМСБр";
         vehicles[] =
         {    
+			{"rhs_bmp2_vmf",1,"true"},
             {"O_T80BVM_M_Z",1,"true"},
             {"rhs_tigr_msv",2,"true"},
             {"MMM_KamAZ4386",1,"true"},
-            {"NORD_Tigr_M_233114_GREEN_KORD_RU",1,"true"},
+            {"NORD_Tigr_M_233114_GREEN_KORD_RU",2,"true"},
             {"UAZ_06_transport_F",1,"true"},
             {"RUS_GRU_east_kamaz63968",2,"true"},
             {"RUS_MP_south_btr80",1,"true"},
@@ -123,15 +124,13 @@ class obrspn24_spawner_class //24 ОБрСпН
         displayName = "Запрос техники 24 ОБрСпН";
         vehicles[] =
         {    
-            {"RUS_MSV_South_t72b3m",1,"true"},
-            {"bs_BMP_2M",1,"true"},
-            {"rhs_tigr_msv",2,"true"},
-            {"RUS_MSV_West_btr82a",1,"true"},
-            {"NORD_BRDM2_RU",1,"true"},
-            {"NORD_Tigr_M_233114_GREEN_KORD_RU",1,"true"},
+        
+            
+           
+           
             {"UAZ_06_transport_F",2,"true"},
-            {"rhs_tigr_sts_vmf",1,"true"},
-            {"bs_tigr_atgm",1,"true"},
+           
+            
 		};
         spawnPoints[] =
         {
@@ -150,15 +149,13 @@ class sparta80_spawner_class //80 ОРБ Спарта
         displayName = "Запрос техники 80 ОРБ Спарта";
         vehicles[] =
         {    
-		    {"RUS_VDV_east_bmd4m",1,"true"},
-            {"rhs_bmp2_vmf",1,"true"},
+			{"bs_BMP_2M",1,"true"},
             {"RUS_MSV_West_btr82a",2,"true"},
-            {"rhs_tigr_msv",1,"true"},
-            {"NORD_BRDM2_RU",1,"true"},
+            {"rhs_tigr_msv",2,"true"},
             {"NORD_Tigr_M_233114_GREEN_KORD_RU",1,"true"},
             {"UAZ_06_transport_F",2,"true"},
-            {"RUS_GRU_east_kamaz63968",1,"true"},
-            {"RUS_MP_south_btr80",1,"true"},
+			{"rhs_tigr_sts_vmf",1,"true"},
+			{"NORD_BRDM2_RU",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -209,6 +206,7 @@ class veterani_spawner_class //ОДШБр Ветераны
             {"NORD_Tigr_M_233114_GREEN_KORD_RU",1,"true"},
             {"RUS_GRU_east_kamaz63968",1,"true"},
             {"RUS_MP_south_btr80",2,"true"},
+			{"NORD_BRDM2_RU",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -253,6 +251,7 @@ class arbat_bsn_spawner_class // БСН АрБат
             {"rhs_tigr_sts_vmf",1,"true"},
             {"RUS_GRU_east_kamaz63968",1,"true"},
             {"bs_tigr_atgm",1,"true"},
+			{"RUS_MP_south_btr80",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -271,7 +270,13 @@ class somali_60omb_spawner_class //60 ОМБ Сомали
         displayName = "Запрос техники 60 ОМБ Сомали";
         vehicles[] =
         {    
- 
+			{"RUS_MSV_South_t72b3m",1,"true"}, 
+			{"RUS_VDV_east_bmd4m",1,"true"},
+			{"RUS_MSV_West_btr82a",1,"true"},
+			{"rhs_tigr_msv",2,"true"},
+			{"bs_tigr_atgm",1,"true"},
+			{"UAZ_06_transport_F",2,"true"},
+			{"RUS_GRU_east_kamaz63968",1,"true"},
 		};
         spawnPoints[] =
         {

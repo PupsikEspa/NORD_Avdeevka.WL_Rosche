@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=272784;
+		nextID=272798;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=134344;
+		nextID=135288;
 	};
 	class Camera
 	{
-		pos[]={2589.5681,61.840679,5176.3071};
-		dir[]={0.64911103,-0.76045293,0.019624207};
-		up[]={0.76011592,0.64938354,0.022980824};
-		aside[]={0.030218957,-1.7376351e-07,-0.99955362};
+		pos[]={2689.7937,27.289722,4857.1538};
+		dir[]={0.68597674,-0.72569644,-0.053913429};
+		up[]={0.72348881,0.68798786,-0.056861527};
+		aside[]={-0.078354858,-8.373172e-07,-0.99697018};
 	};
 };
 binarizationWanted=0;
@@ -131,7 +131,8 @@ addons[]=
 	"A3_Props_F_Enoch_Civilian_InfoBoards",
 	"A3_Structures_F_EPB_Civ_Dead",
 	"CUP_Editor_Plants_Config",
-	"afou_trenches"
+	"afou_trenches",
+	"A3_Structures_F_Civ_Accessories"
 };
 class AddonsMetaData
 {
@@ -642,7 +643,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -668,7 +669,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -694,7 +695,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -30273,7 +30274,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=481;
+		items=472;
 		class Item0
 		{
 			dataType="Layer";
@@ -59972,7 +59973,7 @@ class Mission
 			b=620.47498;
 			angle=180.34937;
 			id=209687;
-			atlOffset=9.3147697;
+			atlOffset=9.2788887;
 		};
 		class Item338
 		{
@@ -61669,7 +61670,7 @@ class Mission
 			colorName="ColorCIV";
 			a=24.236;
 			b=713.00372;
-			angle=108.22928;
+			angle=108.22927;
 			id=271174;
 			atlOffset=-3.7659445;
 			class CustomAttributes
@@ -68836,7 +68837,7 @@ class Mission
 											};
 											id=271785;
 											type="Land_ConcretePanels_02_single_v1_F";
-											atlOffset=1.314971;
+											atlOffset=1.3149719;
 										};
 										class Item35
 										{
@@ -68889,7 +68890,7 @@ class Mission
 											};
 											id=271788;
 											type="Box_FIA_Support_F";
-											atlOffset=0.10243893;
+											atlOffset=0.10243988;
 											class CustomAttributes
 											{
 												class Attribute0
@@ -69356,7 +69357,7 @@ class Mission
 											};
 											id=271844;
 											type="Land_Bare_boulder_03_F";
-											atlOffset=0.26485538;
+											atlOffset=0.26485443;
 										};
 										class Item10
 										{
@@ -69994,7 +69995,7 @@ class Mission
 											};
 											id=271881;
 											type="CraterLong_02_small_F";
-											atlOffset=0.35951519;
+											atlOffset=0.35951424;
 										};
 										class Item46
 										{
@@ -70012,7 +70013,7 @@ class Mission
 											};
 											id=271882;
 											type="CraterLong_small";
-											atlOffset=0.042460442;
+											atlOffset=0.042461395;
 										};
 										class Item47
 										{
@@ -70030,7 +70031,7 @@ class Mission
 											};
 											id=271883;
 											type="CraterLong_small";
-											atlOffset=0.0028734207;
+											atlOffset=0.002872467;
 										};
 										class Item48
 										{
@@ -71082,7 +71083,7 @@ class Mission
 									};
 									id=271958;
 									type="ACE_ConcertinaWire";
-									atlOffset=0.088181496;
+									atlOffset=0.088180542;
 								};
 								class Item30
 								{
@@ -71612,7 +71613,7 @@ class Mission
 											};
 											id=272007;
 											type="Land_Rampart_F";
-											atlOffset=0.8926487;
+											atlOffset=0.89264965;
 										};
 										class Item17
 										{
@@ -71684,7 +71685,7 @@ class Mission
 											};
 											id=272011;
 											type="CraterLong_small";
-											atlOffset=0.17167664;
+											atlOffset=0.17167759;
 										};
 										class Item21
 										{
@@ -71933,7 +71934,7 @@ class Mission
 											};
 											id=272032;
 											type="Land_TimberLog_02_F";
-											atlOffset=0.040185928;
+											atlOffset=0.040184975;
 										};
 										class Item35
 										{
@@ -71969,7 +71970,7 @@ class Mission
 											};
 											id=272034;
 											type="Land_TimberLog_01_F";
-											atlOffset=2.3450556;
+											atlOffset=2.3450565;
 										};
 										class Item37
 										{
@@ -72023,7 +72024,7 @@ class Mission
 											};
 											id=272037;
 											type="Land_TimberLog_02_F";
-											atlOffset=2.1999969;
+											atlOffset=2.1999979;
 										};
 										class Item40
 										{
@@ -73415,7 +73416,7 @@ class Mission
 									};
 									id=272331;
 									type="Land_ShellCrater_01_decal_F";
-									atlOffset=0.55691719;
+									atlOffset=0.55691624;
 								};
 								class Item73
 								{
@@ -74098,7 +74099,7 @@ class Mission
 											};
 											id=272402;
 											type="CraterLong_02_small_F";
-											atlOffset=2.0722332;
+											atlOffset=2.0722342;
 										};
 										class Item31
 										{
@@ -75309,7 +75310,7 @@ class Mission
 									};
 									id=272503;
 									type="CraterLong_02_small_F";
-									atlOffset=0.018509865;
+									atlOffset=0.018508911;
 								};
 								class Item96
 								{
@@ -75961,7 +75962,7 @@ class Mission
 							};
 							id=272570;
 							type="Land_Rampart_F";
-							atlOffset=-1.6050367;
+							atlOffset=-1.6050377;
 						};
 						class Item23
 						{
@@ -76899,7 +76900,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2640.6404,13.02424,5201.25};
+								position[]={2640.6404,13.024239,5201.25};
 								angles[]={6.162003,1.6090167,6.2118821};
 							};
 							side="Empty";
@@ -76910,7 +76911,7 @@ class Mission
 							};
 							id=272671;
 							type="CUP_kmen_1_buk";
-							atlOffset=2.0980835e-05;
+							atlOffset=1.9073486e-05;
 						};
 						class Item76
 						{
@@ -77117,7 +77118,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2718.2039,7.1932745,4884.1978};
-				angles[]={-0,1.6430637,0};
+				angles[]={0,1.6430637,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77134,7 +77135,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2716.8188,7.1942682,4864.6792};
-				angles[]={-0,0.062849306,0};
+				angles[]={0,0.062849306,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77151,7 +77152,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2728.6628,7.2226028,4893.8281};
-				angles[]={-0,4.8297973,0};
+				angles[]={0,4.8297973,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77185,7 +77186,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2715.6199,6.4923601,4855.0308};
-				angles[]={-0,1.6340122,0};
+				angles[]={0,1.6340122,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77202,7 +77203,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2736.5471,7.1925735,4853.4272};
-				angles[]={-0,4.8015361,0};
+				angles[]={0,4.8015361,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77219,7 +77220,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2705.9539,5.5772033,4855.4282};
-				angles[]={-0,3.1848078,0};
+				angles[]={0,3.1848078,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77288,7 +77289,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2717.6677,7.1942558,4874.6216};
-				angles[]={-0,0.072757654,0};
+				angles[]={0,0.072757654,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77305,7 +77306,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2707.3682,7.1937351,4865.1392};
-				angles[]={-0,1.6234519,0};
+				angles[]={0,1.6234519,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77370,7 +77371,7 @@ class Mission
 			flags=1;
 			id=272716;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=0.52539825;
+			atlOffset=0.85671616;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -77408,7 +77409,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2725.7771,7.1940956,4854.3335};
-				angles[]={-0,1.6383053,0};
+				angles[]={0,1.6383053,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77425,7 +77426,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2714.9873,7.1945386,4845.5205};
-				angles[]={-0,3.2476861,0};
+				angles[]={0,3.2476861,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77442,7 +77443,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2708.3987,7.1932144,4874.8774};
-				angles[]={0,1.6229995,-0};
+				angles[]={0,1.6229995,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77494,7 +77495,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2705.6033,7.1944261,4845.79};
-				angles[]={-0,4.7894945,0};
+				angles[]={0,4.7894945,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77512,7 +77513,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2697.4373,7.1930642,4846.2393};
-				angles[]={-0,1.6234519,0};
+				angles[]={0,1.6234519,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77529,7 +77530,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2697.8494,7.192163,4865.2168};
-				angles[]={-0,1.6234519,0};
+				angles[]={0,1.6234519,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77547,7 +77548,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2708.2097,7.1931243,4877.9419};
-				angles[]={-0,1.6234519,-0};
+				angles[]={0,1.6234519,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77564,7 +77565,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2698.7034,7.1923132,4874.2842};
-				angles[]={-0,1.6234519,0};
+				angles[]={0,1.6234519,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77686,7 +77687,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2689.1233,7.4530535,4814.9414};
-				angles[]={-0,4.8914614,6.2286081};
+				angles[]={0,4.8914614,6.2286081};
 			};
 			side="Empty";
 			class Attributes
@@ -77737,7 +77738,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2714.6157,7.2010708,4821.7266};
-				angles[]={-0,4.8914614,0.0012918708};
+				angles[]={0,4.8914614,0.0012918708};
 			};
 			side="Empty";
 			class Attributes
@@ -77878,7 +77879,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2747.6248,7.1907511,4860.9644};
-				angles[]={-0,0.11780041,0};
+				angles[]={0,0.11780041,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77896,7 +77897,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2740.5647,7.1915021,4862.6372};
-				angles[]={-0,0.15059672,0};
+				angles[]={0,0.15059672,0};
 			};
 			side="Empty";
 			flags=4;
@@ -77914,7 +77915,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2731.5225,7.1937551,4862.9365};
-				angles[]={-0,0.13241643,0};
+				angles[]={0,0.13241643,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77931,7 +77932,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2726.1963,7.1944561,4863.5708};
-				angles[]={-0,0.092912257,0};
+				angles[]={0,0.092912257,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77948,7 +77949,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2726.9072,7.1944361,4871.915};
-				angles[]={-0,0.13241643,0};
+				angles[]={0,0.13241643,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77965,7 +77966,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2727.7083,7.1932745,4880.9624};
-				angles[]={0,0.13241643,-0};
+				angles[]={0,0.13241643,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77982,7 +77983,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2727.6147,7.1930838,4884.1343};
-				angles[]={0,0.13241643,-0};
+				angles[]={0,0.13241643,0};
 			};
 			side="Empty";
 			class Attributes
@@ -77999,7 +78000,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2737.2734,7.1926036,4888.4688};
-				angles[]={-0,0.13241643,0};
+				angles[]={0,0.13241643,0};
 			};
 			side="Empty";
 			flags=4;
@@ -78035,7 +78036,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2709.3762,7.1004796,4899.1997};
-				angles[]={-0,0.13241643,0.0094807427};
+				angles[]={0,0.13241643,0.0094807427};
 			};
 			side="Empty";
 			flags=4;
@@ -78052,583 +78053,138 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2732.1189,7.1951213,4900.6528};
-				angles[]={0,0.13241813,0.00119604};
+				position[]={2731.7451,7.0694313,4903.7881};
+				angles[]={0,0.13241643,0.0014648439};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272760;
+			id=272784;
 			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.57520056;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			atlOffset=-0.12367582;
 		};
 		class Item465
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2727.5635,7.1924353,4900.8833};
-				angles[]={0,0.13241813,0};
+				position[]={2725.4373,6.9500475,4904.4209};
+				angles[]={0,0.13241643,0.0014648439};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272761;
+			id=272787;
 			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=1.1103945;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 		class Item466
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2723.0171,7.1915665,4901.2344};
-				angles[]={-0,0.13241813,0};
+				position[]={2715.8179,6.8345594,4905.4219};
+				angles[]={0,0.13241643,0.0014648439};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272762;
+			id=272788;
 			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=1.8161883;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			atlOffset=-0.30375719;
 		};
 		class Item467
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2719.1641,7.1754642,4901.4727};
-				angles[]={0,0.13241813,-0};
+				position[]={2710.9597,5.7698479,4860.5342};
+				angles[]={0,3.2284901,-0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272763;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=1.7607222;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=272792;
+			type="Land_Timbers_F";
+			atlOffset=2.4063077;
 		};
 		class Item468
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2716.6057,7.1825538,4901.2905};
-				angles[]={0,0.13241813,-0};
+				position[]={2711.5554,6.4362068,4860.3691};
+				angles[]={0,3.2284901,-0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272764;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=1.4353466;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=272793;
+			type="Land_Timbers_F";
+			atlOffset=3.6176918;
 		};
 		class Item469
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2714.7825,7.1726947,4901.4038};
-				angles[]={0,0.13241813,-0};
+				position[]={2709.843,6.3682647,4849.7671};
+				angles[]={0,3.2284901,-0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272765;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.089927197;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=272794;
+			type="Land_Timbers_F";
+			atlOffset=1.7557592;
 		};
 		class Item470
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2723.7419,6.8874578,4894.3682};
-				angles[]={0,0.13241813,-0};
+				position[]={2709.2473,5.7019057,4849.9321};
+				angles[]={0,3.2284901,-0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272769;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=1.0398421;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=272795;
+			type="Land_Timbers_F";
+			atlOffset=0.77427387;
 		};
 		class Item471
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2722.1462,6.2365441,4895.0674};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272770;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.21852732;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item472
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2710.6956,6.6988621,4857.708};
-				angles[]={0,0.13241813,-0};
+				position[]={2722.9744,6.4222174,4894.7549};
+				angles[]={0,3.2284901,-0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				disableSimulation=1;
 			};
-			id=272772;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.51400805;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item473
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2715.0461,3.0794702,4859.1118};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272773;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=3.594552;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item474
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2710.644,6.178854,4858.1299};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272774;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.58165026;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item475
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2709.4658,6.6882463,4852.1323};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272775;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.42988348;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item476
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2709.3083,6.2270513,4852.1514};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272776;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.62984848;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item477
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2710.009,6.2523627,4852.8223};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272777;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.019311428;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item478
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2710.1665,6.7135577,4852.8032};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272778;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.019311428;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item479
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2710.6812,6.8057809,4858.6245};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272771;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.10091877;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item480
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2715.6084,3.9200573,4859.6836};
-				angles[]={0,0.13241813,-0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=272779;
-			type="Land_AFOU_okop_grunt_02_F";
-			atlOffset=0.83458734;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_objectScaling";
-					expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.30000001;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=272797;
+			type="Land_Timbers_F";
+			atlOffset=2.2921941;
 		};
 	};
 };
