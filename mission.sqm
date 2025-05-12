@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=277344;
+		nextID=277351;
 	};
 	class MarkerIDProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14435.241,45.851109,955.46564};
-		dir[]={-0.43461221,-0.85151094,0.29335722};
-		up[]={-0.70577812,0.52433622,0.47639078};
-		aside[]={0.5594703,2.0954758e-08,0.8288607};
+		pos[]={1347.9648,27.084475,14887.301};
+		dir[]={-0.21119879,-0.85917789,0.46609506};
+		up[]={-0.35460931,0.51166683,0.78259051};
+		aside[]={0.91086894,-3.67756e-07,0.41273695};
 	};
 };
 binarizationWanted=0;
@@ -31827,7 +31827,7 @@ class Mission
 											side="West";
 											class Entities
 											{
-												items=10;
+												items=16;
 												class Item0
 												{
 													dataType="Object";
@@ -32362,6 +32362,343 @@ class Mission
 													id=209444;
 													type="B_Survivor_F";
 													atlOffset=0.015814781;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="ace_isEngineer";
+															expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=2;
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute2
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=3;
+													};
+												};
+												class Item10
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1347.5789,5.1289644,14889.665};
+														angles[]={0.025325486,6.2023115,0.0080009829};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Пулемётчик";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277345;
+													type="B_Survivor_F";
+													atlOffset=0.018458843;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item11
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1346.7961,5.1209536,14889.734};
+														angles[]={0.025325486,6.2023172,0.0080084298};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Гранатомётчик";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277346;
+													type="B_Survivor_F";
+													atlOffset=0.013717651;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item12
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1345.929,5.1128678,14889.838};
+														angles[]={0.025325486,6.2022676,0.0080084298};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Гранатомётчик";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277347;
+													type="B_Survivor_F";
+													atlOffset=0.010098934;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item13
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1347.7322,5.1086426,14890.516};
+														angles[]={0.025325486,6.15941,0.0080009829};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Стрелок ГП";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277348;
+													type="B_Survivor_F";
+													atlOffset=0.020492554;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item14
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1346.8069,5.1003103,14890.552};
+														angles[]={0.025325486,6.15941,0.0080084298};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Стрелок ГП";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277349;
+													type="B_Survivor_F";
+													atlOffset=0.01922226;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item15
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={1346.0153,5.0942197,14890.542};
+														angles[]={0.025325486,6.159348,0.0080084298};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Снайпер";
+														isPlayable=1;
+														class Inventory
+														{
+															map="ItemMap";
+															gps="ItemGPS";
+														};
+													};
+													id=277350;
+													type="B_Survivor_F";
+													atlOffset=0.013865471;
 													class CustomAttributes
 													{
 														class Attribute0
@@ -36349,19 +36686,19 @@ class Mission
 										};
 									};
 									id=341;
-									atlOffset=0.075442791;
+									atlOffset=-0.007789135;
 								};
 							};
 							id=340;
-							atlOffset=0.075442791;
+							atlOffset=-0.007789135;
 						};
 					};
 					id=339;
-					atlOffset=0.075442791;
+					atlOffset=-0.007789135;
 				};
 			};
 			id=338;
-			atlOffset=0.075442791;
+			atlOffset=-0.007789135;
 		};
 		class Item2
 		{
