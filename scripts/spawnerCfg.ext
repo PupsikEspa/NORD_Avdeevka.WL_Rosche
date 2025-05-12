@@ -115,7 +115,7 @@ class omsbr15_spawner_class //15 ОМСБр
     };
 };
 
-class obrspn24_spawner_class //24 ОБрСпН
+class obrspn24_spawner_class //24 ОБрСпН (Пусто)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == obrspn24_spawner)"; // "(playerSide in [west,independent])"
     
@@ -124,13 +124,6 @@ class obrspn24_spawner_class //24 ОБрСпН
         displayName = "Запрос техники 24 ОБрСпН";
         vehicles[] =
         {    
-        
-            
-           
-           
-            {"UAZ_06_transport_F",2,"true"},
-           
-            
 		};
         spawnPoints[] =
         {
@@ -216,7 +209,7 @@ class veterani_spawner_class //ОДШБр Ветераны
     };
 };
 
-class pdp51_spawner_class //51 ПДП ( ПУСТО )
+class pdp51_spawner_class //51 ПДП (Пусто)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == pdp51_spawner)"; // "(playerSide in [west,independent])"
     
@@ -543,7 +536,7 @@ class oshbr3_spawner_class //3 ОШБр
     };
 };
 
-class ombr72_spawner_class //72 ОМБр ( ПУСТО )
+class ombr72_spawner_class //72 ОМБр (Пусто)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == ombr72_spawner)"; // "(playerSide in [west,independent])"
     
