@@ -82,6 +82,11 @@ class CfgDebriefing
 	};
 };
 
+class RscChatListDefault {
+    show = 0;
+    channels[] = {"Global","Side","Command","Group","Vehicle","Direct","System"};
+};
+
 class CfgSounds
 {
     sounds[] = {};
