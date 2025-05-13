@@ -11,6 +11,7 @@ CHBN_adjustColor = [0.5,0.7,1];
 
 pvpfw_chatIntercept_executeCommand = compile preProcessFilelineNumbers "scripts\chat\executeCommand.sqf";
 
+0 enableChannel [false, true];
 1 enableChannel [false, true];
 2 enableChannel [false, true];
 4 enableChannel [false, true];
