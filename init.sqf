@@ -15,6 +15,7 @@ pvpfw_chatIntercept_executeCommand = compile preProcessFilelineNumbers "scripts\
 1 enableChannel [false, true];
 2 enableChannel [false, true];
 4 enableChannel [false, true];
+5 enableChannel [false, true];
 6 enableChannel [false, true];
 
 // Reset and old EH IDs and scripthandles
