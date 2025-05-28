@@ -1,20 +1,20 @@
 if (side player == civilian) exitWith {};
 
 _arsArray = [
-	odshbr82_ars,
+	obrtro127_ars,
 	obrmp36_ars,
 	ombr72_ars,
-	odshbr95_ars,
+	ombr53_ars,
 	magura_ombr47_ars,
 	opspn8_ars,
-	mcso73_ars,
-	praga_ars,
-	kna_ars,
+	opspn3_ars,
+	espaniola88_ars,
+	sparta80_ars,
 	obrspn24_ars,
-	obrmp810_ars,
-	obrmp155_ars,
+	omsbr15_ars,
+	arbat_bsn_ars,
 	somali_60omb_ars,
-	dshp104_ars,
+	veterani_ars,
 	oshbr3_ars,
 	pdp51_ars
 ];
